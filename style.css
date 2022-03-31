@@ -1,0 +1,641 @@
+/* NAV */
+
+.logo_accueil_div {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #1b1b1b;
+    width: 100%;
+}
+
+.nom_nav {
+    float: right;
+    font-size: 15px;
+    font-family: 'Raleway';
+    display: flex;
+    align-items: center;
+    padding-right: 35px
+}
+
+header ul {
+    float: left;
+    font-size: 15px;
+    font-family: 'Raleway';
+}
+
+header ul a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 0px 1px;
+}
+
+
+/* Body */
+
+BODY {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* About  */
+
+.about_section {
+    background-color: #1b1b1b;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.dep_title {
+    color: white;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.title_blue {
+    color: #0099ff;
+    font-size: 20px;
+    font-family: Raleway;
+}
+
+.HR_ABOUT {
+    margin: 0px 660px;
+}
+
+.p_about {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 0px;
+    font-family: raleway;
+    padding: 0px 180px 0px 180px;
+    text-align: center;
+}
+
+.border_img {
+    border-radius: 25px;
+    width: 250px;
+    height: 250px;
+}
+
+
+
+.line3 {
+    background-color: yellow;
+    border-radius: 4px;
+    padding: 2px 18px;
+    margin-right: 30px;
+}
+
+.line46 {
+    background-color: rgb(0, 119, 255);
+    border-radius: 4px;
+    padding: 2px 14px;
+    margin-right: 30px;
+    color: white;
+}
+
+.line47 {
+    background-color: rgb(0, 182, 0);
+    border-radius: 4px;
+    padding: 2px 14px;
+    margin-right: 30px;
+    color: white;
+}
+
+.line51 {
+    background-color: purple;
+    border-radius: 4px;
+    padding: 2px 14px;
+    margin-right: 30px;
+    color: white;
+}
+
+.destination_text {
+    text-decoration: none;
+    font-family: raleway;
+    color: black;
+    width: 350px;
+}
+
+.logo_spozito {
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+}
+
+.logo_gokart {
+    height: 150px;
+    width: 180px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.box_line {
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 0px 150px;
+}
+
+.section_line {
+    padding: 80px 0px;
+}
+
+.div_line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.title_white {
+    color: white;
+    font-size: 20px;
+    font-family: Raleway;
+}
+
+.div_discord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_discord_text {
+    style="justify-content: center; text-align: center;"
+}
+
+.div_line_text {
+    width: 500px;
+}
+
+.div_partenaire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.div_box_partenaire {
+    display: flex;
+    justify-content: center;
+    background-color: #1b1b1b;
+    margin: 150px 100px 500px 100px;
+    border-radius: 50px;
+}
+
+.div_partenaire_text {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+/* Footer  */
+
+footer {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+.p_partenaire {
+    color: white;
+    font-family: raleway;
+    padding: 40px;
+    text-align: left;
+    margin: 0px 50px;
+}
+
+.box_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 100px 400px 100px;
+    border-radius: 15px;
+    background-color: #1b1b1b;
+    padding: 40px 0px;
+}
+
+.contact_list {
+    padding: 0px 150px;
+}
+
+.p_contact {
+    color: white;
+    font-family: raleway;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contact_character {
+    margin: 0px 30px;
+    text-align: center;
+}
+
+
+/* NAME HOME  */
+
+.accueil {
+    padding: 90px 0px 90px 0px;
+}
+
+.collum_div {
+    display: flex;
+    flex-direction: column;
+}
+
+.div_linecarte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amboisecarte {
+    border-radius: 55px;
+    height: 750;
+    width: 500;
+}
+
+
+/* BACKGROUND VIDEO */
+
+.background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.background-image {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.btn {
+    background-color: #0099ff;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 15px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    opacity: 0.6
+}
+
+.responsable_picture {
+    width: 200;
+    height: 200;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.grades {
+    font-family: raleway;
+    color: #0099ff;
+    font-size: 15px;
+}
+
+
+@media screen and (width: 2560px) {
+    .accueil {
+        padding: 180px 0px 180px 0px;
+    }
+
+    .about_section {
+        padding: 80px 0px 80px 0px;
+    }
+
+    .title_blue {
+        font-size: 30px;
+    }
+
+    .p_about {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 25px;
+    }
+
+    .box_line {
+        padding: 60px;
+        margin: 0px 150px;
+    }
+
+    .line3 {
+        font-size: 20px;
+    }
+
+    .line46 {
+        font-size: 20px;
+    }
+
+    .line47 {
+        ;
+        color: white;
+        font-size: 20px;
+    }
+
+    .line51 {
+        font-size: 20px;
+    }
+
+    .destination_text {
+        font-size: 20px;
+    }
+
+    .div_partenaire_text {
+        font-size: 20px;
+    }
+
+    .logo_spozito {
+        height: 200px;
+        width: 200px;
+    }
+
+    .logo_gokart {
+        height: 200px;
+        width: 240px;
+    }
+
+    .div_box_partenaire {
+        margin: 150px 100px 550px 100px;
+    }
+
+    .box_contact {
+        margin: 200px 400px 600px 400px;
+    }
+
+    .amboisecarte {
+        height: 950;
+        width: 650;
+    }
+}
+
+
+
+@media screen and (max-width: 1600px) {
+    .accueil {
+        padding: 160px 0px 160px 0px;
+    }
+
+    .about_section {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .title_blue {
+        font-size: 20px;
+    }
+
+    .p_about {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+    .box_line {
+        padding: 60px;
+        margin: 0px 150px;
+    }
+
+    .line3 {
+        font-size: 15px;
+    }
+
+    .line46 {
+        font-size: 15px;
+    }
+
+    .line47 {
+
+        color: white;
+        font-size: 15px;
+    }
+
+    .line51 {
+        font-size: 15px;
+    }
+
+    .destination_text {
+        font-size: 15px;
+    }
+
+    .div_partenaire_text {
+        font-size: 15px;
+    }
+
+    .logo_spozito {
+        height: 150px;
+        width: 150px;
+    }
+
+    .logo_gokart {
+        height: 150px;
+        width: 190px;
+    }
+
+    .div_box_partenaire {
+        margin: 150px 100px 550px 100px;
+    }
+
+    .box_contact {
+        margin: 200px 100px 600px 100px;
+    }
+
+    .amboisecarte {
+        height: 750;
+        width: 500;
+        margin-left: 150px;
+    }
+
+    .responsable_picture {
+        width: 150;
+        height: 150;
+
+    }
+
+    .p_contact {
+
+        font-size: 15px;
+
+    }
+
+    .contact_character {
+        margin: 0px 15px;
+
+    }
+
+    @media screen and (max-width: 1280px) {
+        .accueil {
+            padding: 160px 0px 160px 0px;
+        }
+
+        .about_section {
+            padding: 40px 0px 40px 0px;
+        }
+
+        .title_blue {
+            font-size: 15px;
+        }
+
+        .p_about {
+            font-size: 10px;
+        }
+
+        .btn {
+            font-size: 10px;
+        }
+
+        .box_line {
+            padding: 30px;
+            margin: 0px 100px;
+        }
+
+        .line3 {
+            font-size: 10px;
+        }
+
+        .line46 {
+            font-size: 10px;
+        }
+
+        .line47 {
+
+            color: white;
+            font-size: 10px;
+        }
+
+        .line51 {
+            font-size: 10px;
+        }
+
+        .destination_text {
+            font-size: 10px;
+        }
+
+        .div_partenaire_text {
+            font-size: 10px;
+        }
+
+        .logo_spozito {
+            height: 150px;
+            width: 150px;
+        }
+
+        .logo_gokart {
+            height: 150px;
+            width: 190px;
+        }
+
+        .div_box_partenaire {
+            margin: 150px 100px 550px 100px;
+        }
+
+        .box_contact {
+            margin: 200px 100px 600px 100px;
+        }
+
+        .amboisecarte {
+            height: 450;
+            width: 300;
+            margin-left: 150px;
+        }
+
+        .responsable_picture {
+            width: 100;
+            height: 100;
+
+        }
+
+        .p_contact {
+
+            font-size: 10px;
+
+        }
+
+        .contact_character {
+            margin: 0px 10px;
+
+        }
+
+        .grades {
+
+            font-size: 10px;
+        }
+
+        footer {
+            font-size: 10px;
+        }
+
+        .nom_nav {
+            font-size: 10px;
+
+        }
+
+        header ul {
+
+            font-size: 10px;
+
+        }
+
+
+
+        .border_img {
+
+            width: 150px;
+            height: 150px;
+        }
+
+        .dep_title {
+
+            font-size: 20px;
+
+        }
+
+        .title_white {
+            font-size: 15px;
+        }
+
+
+    }
+
+  
