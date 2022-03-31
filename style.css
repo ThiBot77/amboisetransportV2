@@ -175,12 +175,7 @@ BODY {
     width: 500px;
 }
 
-.div_partenaire {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-}
+
 
 .div_box_partenaire {
     display: flex;
@@ -194,6 +189,7 @@ BODY {
 .div_partenaire_text {
     text-align: center;
     padding: 20px 0px;
+    pos
 }
 
 
