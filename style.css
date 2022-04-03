@@ -225,7 +225,7 @@
             /* NAME HOME  */
             
             .accueil {
-                padding: 90px 0px 90px 0px;
+                padding: 80px 0px 80px 0px;
             }
             
             .collum_div {
@@ -340,6 +340,9 @@
             @media screen and (min-width: 2560px) {
                 .about_section {
                     padding: 40px 0px 40px 0px;
+                }
+                .accueil {
+                    padding: 190px 0px 190px 0px;
                 }
                 .box_line {
                     margin-bottom: 450px;
