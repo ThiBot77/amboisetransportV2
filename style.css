@@ -8,6 +8,19 @@
                 background-color: #1b1b1b;
                 width: 100%;
             }
+
+            .accueil_icon
+            {
+                border-radius: 15px;
+                background-color: #0099ff;
+                padding: 12px;
+            }
+
+            .nav_button
+            {
+                
+                padding: 12px;
+            }
             
             .nom_nav {
                 float: right;
@@ -15,7 +28,9 @@
                 font-family: 'Raleway';
                 display: flex;
                 align-items: center;
-                padding-right: 35px
+           
+                padding: 12px;
+                padding-right: 35px;
             }
             
             header ul {
